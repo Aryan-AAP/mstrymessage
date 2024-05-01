@@ -59,7 +59,7 @@ if(!emailResponce.success){
 }
 
 return Response.json({  success:true,
-    message:"User register SuccessFully PLz verify the email"},{status:400})
+    message:"User register SuccessFully PLz verify the email"},{status:200})
     } 
     
     
